@@ -1,0 +1,11 @@
+2.- ¿Qué retorna la funcion EOF de pascal?
+
+
+La función Eof es de suma importancia al momento de programar en pasca. Es una de las funciones directamente relacionada al empleo de
+de archivos, registros entre muchos otros. La función Eof se caracteriza por devolver True si el puntero de archivo ha llegado al final
+del mismo o si el archivo está vacío. Por otro lado, en el resto de casos, Eof devolvería un "false" si no se específica ningún archivo.
+El mismo funciona como una entrada estándar, de manera sencilla dentro de la sintáxis de pascal para comprender el cómo trabajar con
+archivos. Por otro lado, un factor a tomar en cuenta es que el utilizar esta función puede hacer que el programa a utilizar espere. Cabe
+destacar, que para determinar si se está utilizando EoF, es necesario leer los datos. Dicho esto, el uso de está función está relacionado
+directamente al concepto de los booleans, debido a que al igual que estos, utiliza el "true" o "false para devolver algo. Es imprescindible
+el empleo de está función a la hora de trabajar con archivos puesto a su versatilidad.

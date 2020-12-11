@@ -1,0 +1,28 @@
+4.-Ordene las siguientes lineas para permitir que se escriba la linea "hola mundo" en un
+archivo, dejando de ultimo las 3 lineas que no pertenecen a la funcion
+
+*reset(archivo);
+*eof(archivo);
+*close(archivo);
+*AssignFile(archivo, "archivo.txt");
+*rewrite(archivo);
+*writeln(archivo."hola mundo");
+*writeln(archivo,"hola mundo");
+
+Respuesta ejercicio número 4:
+
+De manera ordenada, la función del hola mundo quedaría de la siguiente manera:
+
+AssignFile(archivo, "archivo.txt");
+ 
+ rewrite(archivo);
+ 
+writeln(archivo,"hola mundo");
+
+close(archivo);
+
+Líneas no incluídas:
+
+eof(archivo);
+reset(archivo);
+writeln(archivo."hola mundo");   
